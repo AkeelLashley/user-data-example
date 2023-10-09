@@ -1,3 +1,8 @@
+// type Name = {
+//   first: string;
+//   last: string;
+// };
+
 export type User = {
   id: number;
   email: string;

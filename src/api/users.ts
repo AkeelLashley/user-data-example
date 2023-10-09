@@ -1,5 +1,5 @@
 import { User } from '../types/user.types';
-const apiUrl = 'https://reqres.in/api';
+const apiUrl = import.meta.env.VITE_API_URL;
 
 export type UsersApiResponse = {
   page: number;
