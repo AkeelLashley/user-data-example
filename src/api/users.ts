@@ -10,7 +10,7 @@ export type UsersApiResponse = {
 };
 
 const getUsers = async (page: number = 1): Promise<UsersApiResponse> => {
-  const url = `${apiUrl}/users?page=${page}`;
+  const url = `${apiUrl}/users?page=${page}?delay=3`;
 
   return fetch(url)
     .then((res) => {
