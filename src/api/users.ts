@@ -1,6 +1,6 @@
 import { User } from '../types/user.types';
 const apiUrl = import.meta.env.VITE_API_URL;
-
+console.log(apiUrl)
 export type UsersApiResponse = {
   page: number;
   per_page: number;
